@@ -1,0 +1,12 @@
+.gallery__pic {
+    width: 282px;
+    height: 282px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+    object-fit: cover;
+}
+
+.gallery__pic:hover {
+    cursor: pointer;
+}

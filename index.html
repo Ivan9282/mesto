@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mesto Россия</title>
+        <link href="./pages/index.css" rel="stylesheet">
+    </head>
+
+    <body class="body">
+
+        <div class="page">
+
+            <!--Всплывающий попап EDIT-->
+            <div class="popup popup_type_edit">
+                <div class="popup__containter">
+                    <h2 class="popup__title">Редактировать профиль</h2>
+                    <button class="popup__close" type="button"></button>
+                    <form class="popup__form" name="popup-form">          
+                        <input class="popup__input popup__input_type_name" type="text" name="name">
+                        <input class="popup__input popup__input_type_job" type="text"  name="job">
+                        <button class="popup__button" type="submit">Сохранить</button>
+                    </form>                  
+                </div>
+            </div>
+
+            <!--Всплывающий попап ADD-->
+            <div class="popup popup_type_add">
+                <div class="popup__containter">
+                    <h2 class="popup__title">Новое место</h2>
+                    <button class="popup__close" type="button"></button>
+                    <form class="popup__form" name="popup-form">          
+                        <input class="popup__input popup__input_type_pic-name" type="text" name="pic-name" placeholder="Название">
+                        <input class="popup__input popup__input_type_pic-link" type="text"  name="pic-link" placeholder="Ссылка на картинку">
+                        <button class="popup__button" type="submit">Создать</button>
+                    </form>                  
+                </div>
+            </div>
+
+            <!--Всплывающий попап PIC-->
+            <div class="popup popup_type_pic">
+                <div class="popup__containter-pic">
+                    <img src="#" alt="Без картинки" class="popup__pic">
+                    <h2 class="popup__text">Без картинки</h2>
+                    <button class="popup__close" type="button"></button>
+                </div>
+            </div>
+
+            <!--Шапка сайта-->
+            <header class="header">
+                <img class="header__logo" src="./images/header-logo.svg" alt="Логотип проекта Mesto Russia">
+            </header>
+
+            <main class="main">
+
+                <!--Профиль-->
+                <section class="profile">
+                    <div class="profile__description">
+                        <img class="profile__avatar" src="./images/avatar.jpg" alt="Фото профиля">
+                        <div class="profile__text-cont">
+                            <div class="profile__name-cont">
+                                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                                <button class="profile__edit-button" type="button"></button>    
+                            </div>
+                            <p class="profile__about">Исследователь океана</p>
+                        </div>
+                    </div>
+                    <button class="profile__add-button" type="button"></button>
+                </section>
+
+                <!--Галееря фотографий-->
+                <section class="gallery">
+                    <template class="gallery__template">
+                        <div class="gallery__card">
+                            <img src="" alt="" class="gallery__pic">
+                            <div class="gallery__text-cont">
+                                <h2 class="gallery__text"></h2>
+                                <button class="gallery__heart" type="button"></button>
+                            </div>
+                            <button class="gallery__delete" type="button"></button>
+                        </div>   
+                    </template>
+                </section>
+
+            </main>
+
+            <!--Подвал сайта-->
+            <footer class="footer">
+                <p class="footer__text">&#169; 2020 Mesto Russia</p>
+            </footer>
+
+        </div>
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>

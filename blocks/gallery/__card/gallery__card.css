@@ -1,0 +1,10 @@
+.gallery__card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 0px;
+    position: relative;
+}
+
