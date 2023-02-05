@@ -1,0 +1,11 @@
+.gallery__item {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 282px;
+}
+
+@media (max-width: 879px) {
+    .gallery__item {
+        margin: 0 auto 0;
+    }
+}

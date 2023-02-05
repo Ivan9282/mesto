@@ -1,19 +1,20 @@
-.profile__name {
+.profile__job {
     font-style: normal;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 48px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
     color: #FFFFFF;
     margin: 0;
+    margin-top: 7px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
 @media (max-width: 879px) {
-    .profile__name {
-        font-size: 27px;
-        line-height: 33px;
+    .profile__job {
         text-align: center;
+        font-size: 14px;
+        line-height: 17px;
     }
 }

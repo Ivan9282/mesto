@@ -1,0 +1,20 @@
+.gallery__button-like {
+    margin-right: 19px;
+    background-image: url(../../../images/like.svg);
+    background-color: transparent;
+    background-size: 22px 19px;
+    object-fit: cover;
+    width: 22px;
+    height: 19px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gallery__button-like:hover {
+    opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+.profile__button-change {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-image: url(../../../images/pencil.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 10px;
+    border: 1px solid #FFFFFF;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.profile__button-change:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 879px) {
+    .profile__button-change {
+        width: 18px;
+        height: 18px;
+        background-size: 7.5px 7.5px;
+    }
+}

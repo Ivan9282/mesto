@@ -7,89 +7,85 @@
         <link href="./pages/index.css" rel="stylesheet">
     </head>
 
-    <body class="body">
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <img src="./images/Vector.svg" alt="лого" class="header__logo">
+        </header>
+        <main>
+            <section class="profile">
+                <img src="./images/image.png" alt="аватар" class="profile__avatar">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button class="profile__button-change" type="button"></button>
+                    <p class="profile__job">Исследователь океана</p>
 
-        <div class="page">
-
-            <!--Всплывающий попап EDIT-->
-            <div class="popup popup_type_edit">
-                <div class="popup__containter">
-                    <h2 class="popup__title">Редактировать профиль</h2>
-                    <button class="popup__close" type="button"></button>
-                    <form class="popup__form" name="popup-form">          
-                        <input class="popup__input popup__input_type_name" type="text" name="name">
-                        <input class="popup__input popup__input_type_job" type="text"  name="job">
-                        <button class="popup__button" type="submit">Сохранить</button>
-                    </form>                  
                 </div>
-            </div>
-
-            <!--Всплывающий попап ADD-->
-            <div class="popup popup_type_add">
-                <div class="popup__containter">
-                    <h2 class="popup__title">Новое место</h2>
-                    <button class="popup__close" type="button"></button>
-                    <form class="popup__form" name="popup-form">          
-                        <input class="popup__input popup__input_type_pic-name" type="text" name="pic-name" placeholder="Название">
-                        <input class="popup__input popup__input_type_pic-link" type="text"  name="pic-link" placeholder="Ссылка на картинку">
-                        <button class="popup__button" type="submit">Создать</button>
-                    </form>                  
-                </div>
-            </div>
-
-            <!--Всплывающий попап PIC-->
-            <div class="popup popup_type_pic">
-                <div class="popup__containter-pic">
-                    <img src="#" alt="Без картинки" class="popup__pic">
-                    <h2 class="popup__text">Без картинки</h2>
-                    <button class="popup__close" type="button"></button>
-                </div>
-            </div>
-
-            <!--Шапка сайта-->
-            <header class="header">
-                <img class="header__logo" src="./images/header-logo.svg" alt="Логотип проекта Mesto Russia">
-            </header>
-
-            <main class="main">
-
-                <!--Профиль-->
-                <section class="profile">
-                    <div class="profile__description">
-                        <img class="profile__avatar" src="./images/avatar.jpg" alt="Фото профиля">
-                        <div class="profile__text-cont">
-                            <div class="profile__name-cont">
-                                <h1 class="profile__name">Жак-Ив Кусто</h1>
-                                <button class="profile__edit-button" type="button"></button>    
-                            </div>
-                            <p class="profile__about">Исследователь океана</p>
-                        </div>
+                <button class="profile__add-button" type="button"></button>
+            </section>
+            <section class="gallery">
+                <div class="gallery__item">
+                    <img src="./images/1.jpg" alt="Мань-Пупу-нёр" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Мань-Пупу-нёр</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
                     </div>
-                    <button class="profile__add-button" type="button"></button>
-                </section>
-
-                <!--Галееря фотографий-->
-                <section class="gallery">
-                    <template class="gallery__template">
-                        <div class="gallery__card">
-                            <img src="" alt="" class="gallery__pic">
-                            <div class="gallery__text-cont">
-                                <h2 class="gallery__text"></h2>
-                                <button class="gallery__heart" type="button"></button>
-                            </div>
-                            <button class="gallery__delete" type="button"></button>
-                        </div>   
-                    </template>
-                </section>
-
-            </main>
-
-            <!--Подвал сайта-->
-            <footer class="footer">
-                <p class="footer__text">&#169; 2020 Mesto Russia</p>
-            </footer>
-
+                </div>
+                <div class="gallery__item">
+                    <img src="./images/2.jpg" alt="Губаха" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Губаха</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./images/3.jpg" alt="Вишера" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Вишера</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./images/4.jpg" alt="Кунгур" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Кунгур</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./images/5.jpg" alt="Усьва" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Усьва</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./images/6.jpg" alt="Александровск" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Александровск</h2>
+                        <button class="gallery__button-like gallery__button-like_active" type="button"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title" lang="en">© 2020 Mesto Russia</p>
+        </footer>
+    </div>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__close" type="button"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <form class="popup__form" name="changeUserInfo">
+                <input type="text" class="popup__input popup__input_type_name" placeholder="Введите имя" name="username"
+                    value="Жак-Ив Кусто">
+                <input type="text" class="popup__input popup__input_type_job" placeholder="Введите род деятельности"
+                    name="job" value="Исследователь океана">
+                <button class="popup__button" type="submit">Сохранить</button>
+            </form>
         </div>
-        <script src="./scripts/index.js"></script>
-    </body>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+
 </html>

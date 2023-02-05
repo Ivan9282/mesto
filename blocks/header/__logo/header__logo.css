@@ -1,22 +1,18 @@
 .header__logo {
+    margin-top: 45px;
+    margin-bottom: 37px;
+    display: block;
     width: 142px;
     height: 33px;
-    padding-top: 45px;
-    padding-bottom: 40px;
+    object-fit: contain;
 }
 
-@media screen and (max-width: 950px) {
+@media (max-width: 879px) {
     .header__logo {
-        padding-left: 27px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header__logo {
-        padding-left: 25px;
-        width: 107px;
-        height: 24px;
-        padding-top: 28px;
-        padding-bottom: 31px;
+        margin-top: 28px;
+        margin-bottom: 31px;
+        margin-left: 8px;
+        width: 103.74px;
+        height: 24.4px;
     }
 }

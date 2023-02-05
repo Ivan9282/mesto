@@ -1,16 +1,17 @@
-.popup__containter {
-    box-sizing: border-box;
-    width: 430px;
-    background-color: white;
-    opacity: 1;
-    border-radius: 10px;
-    padding: 34px 36px 37px 36px;
+.popup__container {
     position: relative;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    max-width: 430px;
+    width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-    .popup__containter {
-        width: 282px;
-        padding: 25px 22px 22px 22px;
+@media (max-width: 879px) {
+    .popup__container {
+        max-width: 282px;
+        width: 100%;
     }
 }
