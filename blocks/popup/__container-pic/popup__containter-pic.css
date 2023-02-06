@@ -1,8 +1,0 @@
-.popup__containter-pic {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    row-gap: 10px;
-    position: relative;
-}
