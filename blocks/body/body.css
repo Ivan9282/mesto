@@ -2,9 +2,6 @@
     width: 100%;
     background-color: #000000;
     font-family: 'Inter', 'Helvetica Neue', 'Arial', 'sans-serif';
-}
-
-.body {
     max-width: 880px;
     margin: 0 auto 0;
     position: relative;
