@@ -1,5 +1,5 @@
 let buttonChange = document.querySelector('.profile__button-change');
-let formElement = document.querySelector('.popup__input');
+let formElement = document.querySelector('.popup__form');
 let popup = document.querySelector('.popup');
 let closeButton = document.querySelector('.popup__close');
 let nameInput = document.querySelector('.popup__input_type_name');
