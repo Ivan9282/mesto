@@ -4,11 +4,14 @@
     font-size: 18px;
     line-height: 22px;
     color: #545454;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 879px) {
     .footer__title {
         font-size: 14px;
         line-height: 17px;
+        padding-left: 19px;
     }
 }

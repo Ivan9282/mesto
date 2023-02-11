@@ -1,3 +1,4 @@
+
 .profile__job {
     font-style: normal;
     font-weight: 400;
@@ -13,21 +14,9 @@
 
 @media (max-width: 879px) {
     .profile__job {
-        text-align: center;
+        max-width: 200px;
         font-size: 14px;
         line-height: 17px;
+        margin-left: auto;
     }
 }
-
-position: absolute;
-width: 282px;
-height: 14px;
-left: 19px;
-top: 312px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
