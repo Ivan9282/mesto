@@ -3,74 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto Россия</title>
-    <link href="./pages/index.css" rel="stylesheet">
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body class="body">
-    <header class="header">
-        <img src="./images/Vector.svg" alt="лого" class="header__logo">
-    </header>
-    <main>
-        <section class="profile">
-            <img src="./images/image.png" alt="аватар" class="profile__avatar">
-            <div class="profile__info">
-                <h1 class="profile__name">Жак-Ив Кусто</h1>
-                <button class="profile__button-change" type="button"></button>
-                <p class="profile__job">Исследователь океана</p>
+    <div class="page">
+        <header class="header">
+            <img src="./images/Vector.svg" alt="лого" class="header__logo">
+        </header>
+        <main>
+            <section class="profile">
+                <img src="./images/image.png" alt="аватар" class="profile__avatar">
+                <div class="profile__info">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button class="profile__button-change" type="button"></button>
+                    <p class="profile__job">Исследователь океана</p>
 
-            </div>
-            <button class="profile__add-button" type="button"></button>
-        </section>
-        <section class="gallery">
-            <div class="gallery__item">
-                <img src="./images/1.jpg" alt="Мань-Пупу-нёр" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Мань-Пупу-нёр</h2>
-                    <button class="gallery__button-like" type="button"></button>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./images/2.jpg" alt="Губаха" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Губаха</h2>
-                    <button class="gallery__button-like" type="button"></button>
+                <button class="profile__add-button" type="button"></button>
+            </section>
+            <section class="gallery">
+                <div class="gallery__item">
+                    <img src="./images/1.jpg" alt="Мань-Пупу-нёр" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Мань-Пупу-нёр</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./images/3.jpg" alt="Вишера" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Вишера</h2>
-                    <button class="gallery__button-like" type="button"></button>
+                <div class="gallery__item">
+                    <img src="./images/2.jpg" alt="Губаха" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Губаха</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./images/4.jpg" alt="Кунгур" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Кунгур</h2>
-                    <button class="gallery__button-like" type="button"></button>
+                <div class="gallery__item">
+                    <img src="./images/3.jpg" alt="Вишера" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Вишера</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./images/5.jpg" alt="Усьва" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Усьва</h2>
-                    <button class="gallery__button-like" type="button"></button>
+                <div class="gallery__item">
+                    <img src="./images/4.jpg" alt="Кунгур" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Кунгур</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="./images/6.jpg" alt="Александровск" class="gallery__picture">
-                <div class="gallery__bottom">
-                    <h2 class="gallery__title">Александровск</h2>
-                    <button class="gallery__button-like" type="button"></button>
+                <div class="gallery__item">
+                    <img src="./images/5.jpg" alt="Усьва" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Усьва</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <p class="footer__title" lang="en">© 2020 Mesto Russia</p>
-    </footer>
+                <div class="gallery__item">
+                    <img src="./images/6.jpg" alt="Александровс" class="gallery__picture">
+                    <div class="gallery__bottom">
+                        <h2 class="gallery__title">Александровс</h2>
+                        <button class="gallery__button-like" type="button"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title" lang="en">© 2020 Mesto Russia</p>
+        </footer>
+    </div>
     <div class="popup">
         <div class="popup__container">
             <button class="popup__close" type="button"></button>

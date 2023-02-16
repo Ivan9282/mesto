@@ -1,5 +1,5 @@
 let buttonChange = document.querySelector('.profile__button-change');
-let formElement = document.querySelector('.popup__form');
+let formElement = document.querySelector('.popup__container');
 let popup = document.querySelector('.popup');
 let closeButton = document.querySelector('.popup__close');
 let nameInput = document.querySelector('.popup__input_type_name');
@@ -16,6 +16,7 @@ function openPopup() {
 function closePopup() {
     popup.classList.remove('popup_opened');
 }
+console.log(profileButton.textContent)
 
 function saveInfoPopup(evt) {
     evt.preventDefault();

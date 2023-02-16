@@ -1,0 +1,11 @@
+.page {
+    max-width: 880px;
+    margin: 0 auto 0;
+    position: relative;
+}
+
+@media (max-width: 879px) {
+    .page {
+        max-width: 282px;
+    }
+}
